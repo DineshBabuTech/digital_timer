@@ -1,0 +1,119 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto';
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.click-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.responsive-cont {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .responsive-cont {
+    flex-direction: column;
+  }
+}
+
+.timer {
+  background-position: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  width: 700px;
+  height: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  font-size: 50px;
+  color: #0f172a;
+}
+.time-cont {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  width: 190px;
+}
+.time {
+  color: #00d9f5;
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+.status {
+  color: #0f172a;
+  margin-top: 0px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.set-cont {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 40px;
+}
+.cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.text {
+  color: #0f172a;
+  font-size: 35px;
+  margin-right: 25px;
+  margin-left: 10px;
+  font-weight: 600;
+}
+.limit {
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 500;
+}
+.sym {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #0f172a;
+  font-weight: 550;
+  font-size: 45px;
+}
+.btn {
+  background-position: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  padding: 10px;
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #0f172a;
+  font-weight: 550;
+  width: 110px;
+  border-radius: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.sym-cont {
+  display: flex;
+  align-items: center;
+}
